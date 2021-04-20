@@ -15,16 +15,17 @@ namespace _4HW {
                 dbl_Area.Items.Add("中區");
             }
 
+            dbl_Place.Items.Clear();
+
             if (dbl_Area.SelectedIndex == 0)
             {
-                dbl_Place.Items.Clear();
+                
                 dbl_Place.Items.Add("基隆");
                 dbl_Place.Items.Add("台北");
                 dbl_Place.Items.Add("新北");
             }
             else
             {
-                dbl_Place.Items.Clear();
                 dbl_Place.Items.Add("苗栗");
                 dbl_Place.Items.Add("台中");
                 dbl_Place.Items.Add("南投");
