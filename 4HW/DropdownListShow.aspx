@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:DropDownList ID="dbl_Area" runat="server" AutoPostBack="true"></asp:DropDownList><br />
+            <asp:DropDownList ID="dbl_Place" runat="server"></asp:DropDownList>
         </div>
     </form>
 </body>
