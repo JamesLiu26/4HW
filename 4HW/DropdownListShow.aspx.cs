@@ -18,10 +18,6 @@ namespace _4HW {
                 for (int p = 0; p < place.Length; p++)
                 {
                     dbl_Place.Items.Add(place[p]);
-                    if (p < 3)
-                        dbl_Place.Items[p].Enabled = true;
-                    else
-                        dbl_Place.Items[p].Enabled = false;
                 }
             }
 
